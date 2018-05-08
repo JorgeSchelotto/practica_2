@@ -1,7 +1,7 @@
 # Encoding = UTF-8
 from pattern.es import conjugate, INFINITIVE
 from pattern.es import parse
-from pattern.en import pprint
+#from pattern.en import pprint
 
 
 
