@@ -28,6 +28,5 @@ def examinaArchivos():
 
 listadoEj6 = examinaArchivos()
 
-parteA = list(map(listadoEj6, lambda lis: lis[0].upper()))
-
+parteA = list(map(lambda lis: lis[0].capitalize(), listadoEj6))
 print(parteA)
