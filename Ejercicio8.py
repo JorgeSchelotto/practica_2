@@ -11,10 +11,3 @@ frase = "Si trabajás mucho con computadoras, eventualmente encontrarás que te 
         "datos personalizada, o una aplicación especializada con interfaz gráfica, o un juego simple."
 
 cuentapalabras(frase)
-	
-	
-
-
-
-
-
