@@ -1,16 +1,4 @@
-def
-
-
-
-
-
-
-
-
-
-
-
-
+#ME DA PAJA HACERLO
 
 
 jugadores = {}
