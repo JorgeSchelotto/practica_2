@@ -19,8 +19,9 @@ def leer_archivos(path):
     una lista con los archivos que se encuentran en dichos subdirectorios"""
     diccio = {}
     for ruta, dir, archivos in os.walk(path, topdown=False):
-        ruta2 = os.path.split(ruta)[1]
-        diccio[ruta2] = archivos
+        if os.path.split(ruta)[1] != os.path.split(path)[1]:
+            ruta2 = os.path.split(ruta)[1]
+            diccio[ruta2] = archivos
 
     return diccio
 
